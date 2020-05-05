@@ -1,0 +1,17 @@
+<?php
+        if ($match->dernierMatch()->id_lieu === '1') {
+            ?>
+
+            <p> Date: <?= $match->dernierMatch()->date_match ?> </p>
+            <p> Résultats: <?= $match->dernierMatch()->libelle ?> </p>
+            <p> <?= $match->dernierMatch()->nom ?> <?= $match->dernierMatch()->points_my_team ?> - <?= $match->dernierMatch()->points_equipe_adverse ?> <?= $match->dernierMatch()->nom_adv ?> </p>
+
+            <?php
+        } else if ($match->dernierMatch()->id_lieu === '1') {
+            ?>
+            <p> Date: <?= $match->dernierMatch()->date_match ?> </p>
+            <p> Résultats: <?= $match->dernierMatch()->libelle ?> </p>
+            <p><?= $match->dernierMatch()->nom_adv ?> <?= $match->dernierMatch()->points_equipe_adverse ?> - <?= $match->dernierMatch()->points_my_team ?> <?= $match->dernierMatch()->nom ?>   </p>
+            <?php
+        } var_dump($match->dernierMatch())
+        ?>

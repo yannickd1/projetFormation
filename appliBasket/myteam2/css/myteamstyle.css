@@ -1,0 +1,336 @@
+@font-face {
+    font-family: 'bafora_demoregular';
+    src: url(../fonts/bafora_regular_demo-webfont.woff2) format('woff2'),
+         url(../fonts/bafora_regular_demo-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+  background-image: url("../img/court.jpeg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #FEFEFE;
+
+}
+
+/*page login*/
+.form-signin {
+    width: auto;
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.title{
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+#loginTitle{
+  font-family: 'bafora_demoregular';
+  font-size: 150px;
+  color: #FEFEFE;
+  margin-top: 50px;
+
+
+}
+
+.MyTeamTitle{
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 1375px;
+  position: fixed
+
+
+}
+
+.btn-white {
+  border-color: #fff;
+  background-color: #fff;
+  color: #46484a; }
+
+/*page index*/
+#accueil{
+    width: auto;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.imgJoueurAccueil{
+    margin-bottom: 20px;
+}
+
+#background{
+    margin: 0 auto;
+    margin-top: 60px;
+    width:800px;
+    background: rgb(54,54,54);
+    background: -moz-radial-gradient(circle, rgba(54,54,54,0.5858718487394958) 0%, rgba(9,9,9,0.38139005602240894) 100%);
+    background: -webkit-radial-gradient(circle, rgba(54,54,54,0.5858718487394958) 0%, rgba(9,9,9,0.38139005602240894) 100%);
+    background: radial-gradient(circle, rgba(54,54,54,0.5858718487394958) 0%, rgba(9,9,9,0.38139005602240894) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#363636",endColorstr="#090909",GradientType=1);
+
+
+}
+
+/*page equipe*/
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width:auto;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+.photos{
+    border: 1px solid;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.img{
+    width: 100%;
+    padding: 20px;
+}
+
+.button{
+    padding: 20px;
+}
+
+/*page détail*/
+
+.photosDetail{
+
+    width: 500px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+
+}
+
+.imgDetail{
+    width: 100%;
+    padding: 20px;
+
+}
+
+/*page ajoutermembre*/
+
+#ajouterMembre{
+    width:auto;
+    text-align: center;
+    margin: 0 auto;
+    color: #FEFEFE;
+    margin-top: 50px;
+}
+
+#vignetteMembre{
+	width: 300px; /* Utile entre TD#12 et TD#14. */
+	height: 300px; /* Utile entre TD#12 et TD#14. */
+	padding: 3px;
+	border: dashed 2px #ccc;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-origin: content-box;
+	background-size: contain;
+}
+
+/*page ajoutertraining*/
+
+#ajouterTraining{
+    width:auto;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.form-control {
+    display: block;
+    width: auto;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+/*page ajoutermatch*/
+
+#ajouterMatch{
+    width:auto;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.game{
+    background-image: url("../img/game.jpg");
+}
+
+
+#vignette{
+	width: 300px; /* Utile entre TD#12 et TD#14. */
+	height: 300px; /* Utile entre TD#12 et TD#14. */
+	padding: 3px;
+	border: dashed 2px #ccc;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-origin: content-box;
+	background-size: contain;
+}
+
+/*page ajouterstats*/
+
+#ajouterStats{
+    width:auto;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+/*page participation*/
+
+#sinscrire{
+    width:auto;
+    margin-top: 50px;
+    text-align: center;
+    margin: 0 auto;
+    color: #FEFEFE;
+}
+
+#button{
+    padding-bottom: 20px;
+}
+
+/*page entrainement*/
+
+.entrainement{
+    width:auto;
+    text-align: center;
+    margin: 0 auto;
+    color: #FEFEFE;
+}
+#titre{
+    color: #FEFEFE;
+}
+
+.training{
+    background-image: url("../img/training.jpg");
+}
+
+/*page match*/
+.match{
+    width:auto;
+    text-align: center;
+    margin: 0 auto;
+    color: #FEFEFE;
+}
+
+/*page feuille de match*/
+#feuilleDeMatch{
+    width:auto;
+    text-align: center;
+    margin: 0 auto;
+    color: #FEFEFE;
+    margin-top: 50px;
+}
+
+/*page photos*/
+
+.picture{
+    width:auto;
+    text-align: center;
+    margin: 0 auto;
+    color: #FEFEFE;
+}
+
+.gamePicture{
+    background-image: url("../img/bball.jpg");
+}
+
+
+/*page header*/
+.navbar-trans {
+  background: transparent;
+ }
+
+ .btn-white {
+  border-color: #fff;
+  background-color: #fff;
+  color: #46484a; }
+
+.btn-white:hover, .btn-white:focus, .btn-white:active {
+  border-color: #dfe1e5;
+  background-color: #dfe1e5;
+  color: #46484a; }
+
+.btn-outline-white, .btn-outline-white:visited {
+  background: none;
+  color: #fff;
+  border-color: #fff; }
+
+.btn-outline-white:hover, .btn-outline-white:focus, .btn-outline-white:active {
+  color: #46484a;
+  background: #fff; }
+
+  .link-white, link-white:visited {
+  font-size: .75rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: .3rem;
+  border: 0;
+  color: #fff; }
+
+.link-white:hover, .link-white:focus, .link-white:active {
+  color: #dfe1e5 !important; }
+
+
+  a.navbar-brand, a.logo {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff !important;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 0; }
+
+a.logo:hover, a.logo:active, a.logo:focus {
+  text-decoration: none; }
+
+li.nav-item .btn {
+  margin-top: .2rem;
+  margin-left: .4rem; }
+li.nav-item .btn-white {
+  color: #46484a; }
+
+  a {
+  color: #FEFEFE; }
+
+
+
+
+
+
+
+#titre{
+    margin-left: 200px;
+
+}
+
+#titreEffectif{
+    text-align: center;
+}
